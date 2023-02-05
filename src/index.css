@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  border: 0;
+}
+/* Scrollbar style start here */
+html::-webkit-scrollbar {
+  width: 10px;
+}
+html::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: rgb(251, 250, 250);
+  border: 1px solid #cacaca;
+}
+html::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgb(248, 248, 2);
+  box-shadow: inset 0 0 6px rgb(18, 17, 17);
+}
+/* Scrollbar style start end */
+.set-center-form{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+ background:rgb(156, 156, 156);
+  
+}
+form{
+  display: flex;
+  padding: 10px 0px;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width:320px;
+  border-radius: 8px;
+  background-color: #114cd5;
+}
+form input{
+  width:280px;
+  margin: 10px;
+  padding:10px;
+}
+ .btn-3{
+  box-sizing: border-box;
+ background-color: rgb(241, 119, 5);
+ width: 95%;
+ margin: 10px;
+ padding:10px;
+}
+.headOne{
+  margin: 10px 0px !important;
+  color:rgb(248, 245, 245);
+  letter-spacing: 3px;
+}
+.f-lex-own {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  box-shadow: 2px 2px 15px #ccc;
+  width: 100%;
+  background: #dee7e9;
+  height: 60px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.f-lex-own img {
+  margin: 10px 0px;
+}
+.btn-1,
+.btn-2,.btn-3 {
+  color: white;
+  font-family: cursive, monospace;
+  border: 0;
+  border-radius: 8px;
+  align-items: end;
+}
+.btn-1 {
+  background: #2f9a41;
+  padding: 8px 16px;
+}
+.btn-4{
+  background: transparent;
+  border: 0;
+}
+.cart-count {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: -12px;
+  background: red;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  text-align: center;
+  height: 20px;
+}
+.btn-2 {
+  background: #ffb004;
+  margin: 10px 0px 15px 0px;
+  padding: 5px 16px;
+}
+.f-lex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.f-lex:nth-child(1) {
+  background: rgb(255, 252, 247);
+}
+.f-lex del {
+  color: red;
+}
+strong span {
+  color: rgb(29, 156, 29);
+}
+
+/* cart-css START*/
+.cart-flex{
+display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+align-items: center;
+height:130px;
+margin:20px;
+background: dee7e9;
+color: white;
+box-shadow: 2px 2px 15px #ccc;
+}
+.w-20{
+  width:20%;
+  color:#ffb004;
+  text-align: center;
+}
+/* cart-css END*/
